@@ -1,4 +1,3 @@
-import random 
 import string
 # Function to generate a random id of 7 characters
 from datetime import datetime

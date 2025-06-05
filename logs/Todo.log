@@ -1,0 +1,75 @@
+2025-06-03 16:09:19,984 - INFO - todo_logger - To-Do with ID 250603160919_e265W created successfully.
+2025-06-03 16:13:45,811 - INFO - todo_logger - Successfully fetched To-Do with ID: 250603123339_5fG81
+2025-06-03 16:20:18,284 - INFO - todo_logger - To-Do with ID 250603123339_5fG81 status updated to pending
+2025-06-03 16:21:22,561 - WARNING - todo_logger - No To-Do found with ID: 250603123339_5fG834
+2025-06-03 16:27:37,866 - INFO - todo_logger - Successfully fetched To-Do with ID: 250603121856_3MVis
+2025-06-03 16:27:49,183 - INFO - todo_logger - To-Do with ID 250603121856_3MVis description updated to Pokemon
+2025-06-03 16:34:59,385 - INFO - todo_logger - Successfully fetched To-Do with ID: 250603121856_3MVis
+2025-06-03 16:34:59,387 - INFO - todo_logger - To-Do with ID 250603121856_3MVis deleted successfully.
+2025-06-05 18:09:41,437 - INFO - todo_logger - Successfully fetched To-Do with ID: 250603124059_7HJ3h
+2025-06-05 19:22:51,959 - INFO - todo_logger - To-Do with ID 250605192251_zjgG5 created successfully.
+2025-06-05 19:23:05,348 - WARNING - todo_logger - No To-Do found with ID: 250605192251_zjgG
+2025-06-05 19:23:12,901 - WARNING - todo_logger - No To-Do found with ID: 250605192251_zjgG
+2025-06-05 19:23:23,875 - WARNING - todo_logger - No To-Do found with ID: 250605192251_zjgG
+2025-06-05 19:23:24,767 - WARNING - todo_logger - No To-Do found with ID: 250605192251_zjgG
+2025-06-05 19:23:25,302 - WARNING - todo_logger - No To-Do found with ID: 250605192251_zjgG
+2025-06-05 19:23:25,503 - WARNING - todo_logger - No To-Do found with ID: 250605192251_zjgG
+2025-06-05 19:23:25,703 - WARNING - todo_logger - No To-Do found with ID: 250605192251_zjgG
+2025-06-05 19:23:25,904 - WARNING - todo_logger - No To-Do found with ID: 250605192251_zjgG
+2025-06-05 19:23:26,388 - WARNING - todo_logger - No To-Do found with ID: 250605192251_zjgG
+2025-06-05 19:23:48,699 - INFO - todo_logger - Successfully fetched To-Do with ID: 250605192251_zjgG5
+2025-06-05 20:40:25,185 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:42:23,393 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:42:50,282 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:43:28,761 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:44:00,626 - ERROR - todo_logger - Error while creating To-Do - Exception: 'Database' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "/Users/hemantkumar/Developer/backend/fastapi-todo/database/database.py", line 27, in create_todo
+    self.cursor.execute(
+    ^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'cursor'
+2025-06-05 20:44:48,899 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:45:29,867 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:45:35,668 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:47:41,399 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:48:17,878 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:48:25,205 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:48:49,031 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:48:55,733 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:48:56,661 - ERROR - todo_logger - Error while reading To-Do - Exception: 'Database' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "/Users/hemantkumar/Developer/backend/fastapi-todo/database/database.py", line 42, in read_todo
+    self.cursor.execute(
+    ^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'cursor'
+2025-06-05 20:49:20,701 - ERROR - todo_logger - Error while creating To-Do - Exception: 'Database' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "/Users/hemantkumar/Developer/backend/fastapi-todo/database/database.py", line 27, in create_todo
+    self.cursor.execute(
+    ^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'cursor'
+2025-06-05 20:50:50,530 - WARNING - todo_logger - No To-Do found with ID: 1
+2025-06-05 20:51:31,995 - INFO - todo_logger - To-Do with ID 250605205131_79JOr created successfully.
+2025-06-05 20:51:50,089 - INFO - todo_logger - Successfully fetched To-Do with ID: 250605205131_79JOr
+2025-06-05 20:55:42,422 - INFO - todo_logger - Successfully fetched To-Do with ID: 250605205131_79JOr
+2025-06-05 20:55:42,423 - INFO - todo_logger - Database connection closed.
+2025-06-05 20:55:43,939 - INFO - todo_logger - Successfully fetched To-Do with ID: 250605205131_79JOr
+2025-06-05 20:55:43,939 - INFO - todo_logger - Database connection closed.
+2025-06-05 20:55:44,484 - INFO - todo_logger - Successfully fetched To-Do with ID: 250605205131_79JOr
+2025-06-05 20:55:44,484 - INFO - todo_logger - Database connection closed.
+2025-06-05 20:55:45,026 - INFO - todo_logger - Successfully fetched To-Do with ID: 250605205131_79JOr
+2025-06-05 20:55:45,026 - INFO - todo_logger - Database connection closed.
+2025-06-05 20:55:45,223 - INFO - todo_logger - Successfully fetched To-Do with ID: 250605205131_79JOr
+2025-06-05 20:55:45,223 - INFO - todo_logger - Database connection closed.
+2025-06-05 20:55:45,394 - INFO - todo_logger - Successfully fetched To-Do with ID: 250605205131_79JOr
+2025-06-05 20:55:45,394 - INFO - todo_logger - Database connection closed.
+2025-06-05 20:55:45,579 - INFO - todo_logger - Successfully fetched To-Do with ID: 250605205131_79JOr
+2025-06-05 20:55:45,579 - INFO - todo_logger - Database connection closed.
+2025-06-05 20:59:48,363 - ERROR - todo_logger - Error while creating To-Do - Exception: 'Database' object has no attribute 'cursor'
+Traceback (most recent call last):
+  File "/Users/hemantkumar/Developer/backend/fastapi-todo/database/database.py", line 30, in create_todo
+    self.cursor.execute(
+    ^^^^^^^^^^^
+AttributeError: 'Database' object has no attribute 'cursor'
+2025-06-05 21:00:11,125 - INFO - todo_logger - To-Do with ID 250605210011_WQ16z created successfully.
+2025-06-05 21:00:11,125 - INFO - todo_logger - Database connection closed.
