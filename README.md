@@ -74,5 +74,5 @@ pip install -r requirements.txt
 ###Update DB credentials in database/database.py
 ## Run the application
 ```
-uvicorn main:app --reload
+uvicorn app:app --reload
 ```
